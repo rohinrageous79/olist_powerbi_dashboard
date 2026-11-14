@@ -4,7 +4,7 @@ An end-to-end Power BI project built on 100K+ real Brazilian e-commerce orders. 
 
 > **Where is the business growing, and how much is delivery performance hurting customer satisfaction?**
 
-![Business Overview](screenshots/1_overview.png)
+![Business Overview](1_overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ flowchart LR
 
 `Customer Type` is a small **disconnected helper table** (`One-time`, `Repeat`) that powers the customer donut chart.
 
-![Data Model](screenshots/3_data_model.png)
+![Data Model](3_data_model.png)
 
 ---
 
@@ -206,7 +206,7 @@ flowchart LR
 
 ### Page 1: Business Overview
 
-![Business Overview](screenshots/1_overview.png)
+![Business Overview](1_overview.png)
 
 | Visual | Question it answers | Fields |
 |--------|--------------------|--------|
@@ -219,7 +219,7 @@ flowchart LR
 
 ### Page 2: Delivery and Satisfaction
 
-![Delivery and Satisfaction](screenshots/2_delivery.png)
+![Delivery and Satisfaction](2_delivery.png)
 
 | Visual | Question it answers | Fields |
 |--------|--------------------|--------|
@@ -234,9 +234,9 @@ flowchart LR
 ### Interactive filtering example
 Every visual responds to the Year and State slicers. Here the dashboard is filtered to **São Paulo in 2017**: revenue is R$2.14M, the late rate is only **4.65%** (against 8.13% nationally) and average delivery time is **8.85 days** (against about 12 nationally). Late orders in São Paulo still score much lower on reviews (2.7 vs 4.3 for on-time orders).
 
-![Overview filtered to Sao Paulo, 2017](screenshots/4_overview_2017.png)
+![Overview filtered to Sao Paulo, 2017](4_overview_2017.png)
 
-![Delivery filtered to Sao Paulo, 2017](screenshots/5_delivery_2017.png)
+![Delivery filtered to Sao Paulo, 2017](5_delivery_2017.png)
 
 ---
 
@@ -282,12 +282,11 @@ Only about **3%** of customers placed a second order, so growth depends almost e
 olist-powerbi-dashboard/
 ├── README.md
 ├── Olist_Dashboard.pbix
-└── screenshots/
-    ├── 1_overview.png
-    ├── 2_delivery.png
-    ├── 3_data_model.png
-    ├── 4_overview_2017.png
-    └── 5_delivery_2017.png
+├── 1_overview.png
+├── 2_delivery.png
+├── 3_data_model.png
+├── 4_overview_2017.png
+└── 5_delivery_2017.png
 ```
 
 **To open the project**
